@@ -1,0 +1,33 @@
+/* Overall Page Elements */
+* {
+    box-sizing: border-box;
+}
+/* Overall Column Elements */
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+/* List Elements */
+li {
+    padding-bottom: 10px;;
+}
+/* Column Elements */
+#column1 {
+    background-color: lightcoral;
+}
+#column2 {
+    background-color: teal;
+}
+/* Heading Elements */
+h2 {
+    padding-left: 7px;
+}
+/* Padding Elements */
+p {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+#warning {
+    padding-left: 50px;
+}
