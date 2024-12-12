@@ -1,75 +1,68 @@
 <!DOCTYPE html>
-<!-- Shealy Clifton, Southern Illinois University, 8/30/2024, 9/1/2024-->
-
 <html lang="en">
-<!--Tab details for page-->
 <head>
-<meta charset="utf-8" />
-<title>Backyard Bicycles!</title>
-<link rel="stylesheet" href="styles/index.css">
-<link rel="stylesheet" href="styles/slicknav.css"> 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
-<script src="Java/jquery.slicknav.min.js"></script> 
-<script type="text/javascript"> 
-    $(document).ready(function(){
-        $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
-    }); 
-</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <title>RipKut/Main</title>
 </head>
-
-<meta name="author" content="Shealy Clifton">
-<meta name="keywords" content="HTML, Bicycles, Bikes"> 
-    
 <body>
-<!--Heading For Page-->
-<header>
-<!-- Temporaray image for logo -->
-    <img src="images/logo.png" 
-         width  = "200"
-         height = "200"
-         id="logo"
-         alt=logo>
-<h2>Github Lab 2!</h2>
-<h3>Find the best bike for you!</h3>
-</header>
+    <h1 id="mainHeader">RipKut</h1>
+    <ul id="mainNavUl">
+        <li id="mainNavLi"><a class="active" href="../htmlPages/main.html">Home</a></li>
+        <li id="mainNavLi"><a href="../htmlPages/posts.html">Posts</a></li>
+        <li id="mainNavLi"><a href="../htmlPages/images.html">Images</a></li>
+        <li id="mainNavLi"><a href="../htmlPages/reviews.html">Reviews</a></li>
+        <li id="mainNavLi"><a href="../htmlPages/links.html">Links</a></li>
+        <li id="mainNavLi"><a href="htmlPages/contact.html">Contact</a></li>
+    </ul>
 
-<div style='display: flex; justify-content: center;'>
-  <a href="#">
-    <img src="images/bike.png" 
-         onmouseover="this.src='images/bike2.png'" 
-         onmouseout="this.src='images/bike.png'" 
-         id = "general"
-         />
-  </a>
-</div>
+    <img id="dewey" src="../Images/hoverPic.png" alt="dewey">
+    
+    <div class="main">
+        <h1 class="homeH1">The RipKut Blog</h1>
+        <p class="mainP">20 year old I.T. student currently in university.</p>
+    </div>
 
-<nav id="mobile_menu"></nav> 
-<nav id="nav_menu"> 
-    <ul>
-        <li><a href="index.html" class="current">Home</a></li> 
-        <li><a href="sales.html">Sales</a></li> 
-        <li><a href="rentals.html" >Rentals</a></li>
-        <li><a href="services.html" >Services</a></li> 
-        <li><a href="contact.html" class="lastitem">Contact</a></li>
-    </ul> 
-</nav>
-<main>
-<!-- Contact Area -->
-<h2>Contact us!</h2>
-<p>Phone - 1-(800)-655-BIKE</p>
-<p>Email - BackyardBikes@gmail.com</p>
-
-<!-- Location of business -->
-<!-- Example of what the real cite would do -->
-<h2>Find us <a href="https://www.google.com/maps/place/Quatro's+Deep+Pan+Pizza/@37.7088712,-89.1942814,14z/data=!4m6!3m5!1s0x887712281cecb16b:0x445c78741276fac8!8m2!3d37.7209947!4d-89.2174665!16s%2Fg%2F1tdv_mzt?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D">Here!</a></h2>
-
-        
-<!-- Copyright located at the bottom of the page -->
-<p>&#169; 2024 Backyard Bicycles</p>
-</main>
- <audio controls autoplay>
-  <source src="audio/examplenoise.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio> 
+    <div class="menu">
+        <div id="list1">
+            <p class="listH" id="hobbiesH">Hobbies</p>
+            <ul class="mainL">
+                <li class="listE">Video Editing</li>
+                <li class="listE">Art</li>
+                <li class="listE">Taking Walks</li>
+                <li class="listE">Fooling Around</li>
+                <li class="listE">Eating Culvers</li>
+                <li class="listE">Hiking</li>
+                <li class="listE">Sleeping</li>
+                <li class="listE">Viewing Movies</li>
+                <li class="listE">Coding</li>
+                <li class="listE">Video Games</li>
+            </ul>
+        </div>
+        <div id="list2">
+            <p class="listH" id="hobbiesH">Favorite Songs</p>
+            <ul class="mainL">
+                <li class="listE">RUN2U - STAYC</li>
+                <li class="listE">act i: stickerz "99" - 4Batz</li>
+                <li class="listE">imcoolimgoodimstraight - ericdoa</li>
+                <li class="listE">i like the way you kiss me - Artemas</li>
+                <li class="listE">byebye - Emoslut666</li>
+                <li class="listE">Genesis - Grimes</li>
+                <li class="listE">Stripper Heels & Heartbreaks - Northsidebenji</li>
+                <li class="listE">I Wish - Skee-Lo</li>
+                <li class="listE">i don't know how to love - The Drums</li>
+                <li class="listE">Lord Pretty Flacko Jodye 2 - A$AP Rocky</li>
+            </ul>
+        </div>
+    </div>
 </body>
+<footer style="text-align: center; padding: 40px; color: hotpink; margin-top: 20px; font-family: 'Permanent Marker', cursive;">
+    <p>shealy made this?, I thought he was lazy</p>
+</footer>
 </html>
